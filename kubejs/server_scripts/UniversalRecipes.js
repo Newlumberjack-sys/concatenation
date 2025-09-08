@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
                 Item.of('patchouli:guide_book', '{"patchouli:book":"via_romana:guide"}'),
                 [
                         'minecraft:book',
-                        'minecraft:oak_sign'
+                        '#minecraft:signs'
                 ]
         )
         event.shapeless(

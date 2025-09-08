@@ -20924,6 +20924,52 @@
 			x: -3.5d
 			y: -6.0d
 		}
+		{
+			dependencies: ["33F8735D8322AFE6"]
+			hide_dependency_lines: true
+			id: "0C234E08F2DA20B1"
+			rewards: [{
+				id: "7DCDC18DA8D6F1F9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "4BF96387A0FDAE44"
+				item: {
+					Count: 1
+					id: "concatenationcore:calralite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B8127AF958727B0"]
+			description: [
+				"The Occult Calling is a pyrite tablet with knowledge unique to a witch written in blood. Or is it red ink?"
+				""
+				"Witches of the Temperance Pathway can use this to share their knowledge and use of the Book of Shadows and their iconic mixing cauldron with their friends."
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "524B8C88541F6833"
+			rewards: [{
+				id: "26C10DC10DE36F09"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "7250ADDE2F87C37E"
+				item: "concatenationcore:occult_calling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
 	]
 	title: "The Journey"
 }

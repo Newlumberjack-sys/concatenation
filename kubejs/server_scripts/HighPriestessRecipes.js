@@ -426,7 +426,7 @@ ServerEvents.recipes(event => {
                         'ACA'
                 ],
                 {
-                        A: 'minecraft:oak_log',
+                        A: '#minecraft:logs',
                         C: 'createmetallurgy:steel_ingot',
                         B: 'minecraft:black_dye'
                 }
@@ -871,7 +871,17 @@ ServerEvents.recipes(event => {
                 ]
         )
 
+        event.shapeless(
+                Item.of('concatenationcore:meteorite_clump'),
+                [
+                        '#concatenation:hammers',
+                        'concatenationcore:meteorite',
+                        'concatenationcore:meteorite'
+                ]
+        )
+
         event.recipes.thermal.press('concatenationcore:signalum_coil', ['thermal:signalum_dust', 'concatenationcore:copper_lead_coil'])
+        event.recipes.thermal.press('concatenationcore:meteorite_clump', ['concatenationcore:meteorite', 'concatenationcore:meteorite'])
         event.recipes.thermal.pulverizer(Item.of('thermal:signalum_dust').withChance(1.5), 'thermal:signalum_plate')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_lead').withChance(1.25), '#tfmg:stone_types/galena')
         event.recipes.thermal.pulverizer(Item.of('create:crushed_raw_aluminum').withChance(1.25), '#tfmg:stone_types/bauxite')
@@ -882,8 +892,9 @@ ServerEvents.recipes(event => {
         event.recipes.thermal.smelter('concatenationcore:galvanized_iron_nugget', ['create:zinc_nugget', 'concatenationcore:double_nugget']).energy(8000)
         event.recipes.thermal.smelter('concatenationcore:daladite', ['concatenationcore:celestial_calralite', 'rftoolsbase:infused_diamond', 'mekanism:ingot_refined_obsidian']).energy(55000)
         event.recipes.thermal.smelter('create:shadow_steel', ['rftoolsbase:infused_diamond', 'minecraft:nether_star', 'concatenationcore:daladite']).energy(1000000)
-        event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite', 'concatenationcore:meteorite', '#forge:dusts/zinc']).energy(2500)
+        event.recipes.thermal.smelter('concatenationcore:alclad', ['concatenationcore:meteorite_clump', '#forge:dusts/zinc']).energy(2500)
         event.recipes.thermal.smelter(Item.of('mekanism:nugget_osmium', 3), ['mekanism:dust_osmium']).energy(25000)
+        event.recipes.thermal.smelter('concatenationcore:celestial_calralite', ['mcore:raw_titanium', 'tconstruct:raw_cobalt', 'createmetallurgy:raw_wolframite']).energy(50000)
 
         event.recipes.industrialforegoing.dissolution_chamber(
                 ['rftoolspower:power_core2', 'thermal:energy_cell_frame', 'rftoolspower:power_core2', 'concatenationcore:signalum_coil', 'concatenationcore:signalum_coil', 'rftoolspower:power_core2', 'tconstruct:hepatizon_ingot', 'rftoolspower:power_core2'],
