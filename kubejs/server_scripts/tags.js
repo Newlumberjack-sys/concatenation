@@ -65,7 +65,7 @@ ServerEvents.tags('item', event => {
         'industrialforegoing:machine_frame_simple',
         'thermal:machine_frame'
     ]);
-    event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
+    //event.add('thermal:crafting/dies', 'concatenationcore:copper_lead_coil');
     event.add('forge:consumables/experience_3', 'concatenationcore:experience_orb');
 
     add('minecraft:swords', [
@@ -227,4 +227,11 @@ ServerEvents.tags('item', event => {
         'reliquary:rending_gale',
         'minecraft:trident',
     ]);
+
+    add('forge:dusts', [
+        'concatenationcore:crushed_iron',
+        'concatenationcore:crushed_zinc'
+    ]);
+    event.add('forge:dusts/zinc', 'concatenationcore:crushed_zinc');
+    event.add('forge:dusts/iron', 'concatenationcore:crushed_iron');
 });

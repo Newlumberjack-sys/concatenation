@@ -394,7 +394,7 @@ ServerEvents.recipes(event => {
                 {
                         A: 'minecraft:stone',
                         C: 'minecraft:gold_ingot',
-                        B: 'minecraft:oak_log',
+                        B: '#minecraft:logs',
                         E: 'minecraft:copper_block',
                         D: 'concatenationcore:ectorite'
                 }

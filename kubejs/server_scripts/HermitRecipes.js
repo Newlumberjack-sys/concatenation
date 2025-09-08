@@ -226,8 +226,8 @@ ServerEvents.recipes(event => {
                 ],
                 {
                         B: 'create:shaft',
-                        C: 'minecraft:stripped_oak_log',
-                        A: 'minecraft:oak_planks'
+                        C: '#forge:stripped_logs',
+                        A: '#minecraft:planks'
                 }
         )
         event.shaped(

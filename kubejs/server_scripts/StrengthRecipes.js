@@ -18,12 +18,36 @@ ServerEvents.recipes(event => {
                 'mcore:steel_chestplate',
                 'mcore:steel_leggings',
                 'mcore:steel_boots',
-                'psi:cad_assembler'
+                'psi:cad_assembler',
         ]
 
         remove.forEach(item => {
                 event.remove({ output: item })
         })
+
+       const ids = [
+    "casing_12_gauge_recipe",
+    "casing_46x_30_recipe",
+    "casing_50_ae_recipe",
+    "casing_57x_28_recipe",
+    "casing_58x_42_recipe",
+    "casing_68x_51fury_recipe",
+    "casing_308_recipe",
+    "recipe_338_lapua_recipe",
+    "casing_357_magnum_recipe",
+    "casing_556x_45mm_recipe",
+    "casing_762x_25_recipe",
+    "casing_762x_39mm_recipe",
+    "casing_762x_54_recipe",
+    "casing_3060_recipe",
+    "casing_9mm_recipe"
+  ];
+
+  ids.forEach(id => {
+    event.remove({ id: `createtaczauto:${id}` });
+  });
+
+        event.forEachRecipe({ mod: 'createtaczauto' }, r => console.log('ID ->', r.getId()));
 
         event.shaped(
                 Item.of('tarotcards:strength'),
@@ -271,7 +295,7 @@ ServerEvents.recipes(event => {
                         'BDB'
                 ],
                 {
-                        A: 'minecraft:stripped_oak_wood',
+                        A: '#forge:stripped_logs',
                         B: 'createmetallurgy:steel_ingot',
                         C: 'tfmg:cast_iron_block',
                         D: 'tarotcards:judgement'

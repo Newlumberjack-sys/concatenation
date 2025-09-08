@@ -1234,142 +1234,6 @@
         "isSelected": true
       },
       {
-        "path": "config\\openloader\\resources\\ConcatenationTips",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\00.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\01.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\02.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\03.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\04.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\05.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\06.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\07.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\08.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\09.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\10.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\11.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\12.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\13.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\14.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\15.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\16.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\17.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\18.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\19.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\20.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\21.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\22.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\23.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\24.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\25.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\26.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\27.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\assets\\soleilroumain\\tips\\28.json",
-        "isSelected": true
-      },
-      {
-        "path": "config\\openloader\\resources\\ConcatenationTips\\pack.mcmeta",
-        "isSelected": true
-      },
-      {
         "path": "config\\openloader\\resources\\ConcatenationTips.zip",
         "isSelected": true
       },
@@ -2519,6 +2383,10 @@
       },
       {
         "path": "crash-reports\\crash-2025-08-31_20.23.45-fml.txt",
+        "isSelected": false
+      },
+      {
+        "path": "crash-reports\\crash-2025-09-07_15.34.10-fml.txt",
         "isSelected": false
       },
       {
@@ -9550,6 +9418,78 @@
         "isSelected": true
       },
       {
+        "path": "kubejs\\data\\concacreate",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\12g.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\308.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\338lapua.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\357.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\45acp.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\46.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\50ae.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\54.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\556.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\57.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\58.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\762.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\9mm.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\fury.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\springfield.json",
+        "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concacreate\\recipes\\tokarev.json",
+        "isSelected": true
+      },
+      {
         "path": "kubejs\\data\\concadimshard",
         "isSelected": true
       },
@@ -9736,6 +9676,10 @@
       {
         "path": "kubejs\\data\\concaxerei\\recipes\\blood_fabric.json",
         "isSelected": true
+      },
+      {
+        "path": "kubejs\\data\\concaxerei\\recipes\\calling.json",
+        "isSelected": false
       },
       {
         "path": "kubejs\\data\\concaxerei\\recipes\\dagger.json",
@@ -10962,6 +10906,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\alltheleaks-1.0.4+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\almanac-1.20.x-forge-1.0.2.mod_data.json",
         "isSelected": false
       },
@@ -11195,6 +11143,10 @@
       },
       {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\concatenationcore-1.0.4.1-forge-1.20.1.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\concatenationcore-1.0.5-forge-1.20.1.mod_data.json",
         "isSelected": false
       },
       {
@@ -11586,6 +11538,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\immersive_aircraft-1.4.0+1.20.1-forge.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\immersive_weathering-1.20.1-2.0.5-forge.mod_data.json",
         "isSelected": false
       },
@@ -11619,6 +11575,10 @@
       },
       {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\InventoryProfilesNext-forge-1.20-1.10.14.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\InventoryProfilesNext-forge-1.20-1.10.19.mod_data.json",
         "isSelected": false
       },
       {
@@ -11722,6 +11682,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\lootr-forge-1.20-0.7.35.93.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\lukis-grand-capitals-1.1.1.mod_data.json",
         "isSelected": false
       },
@@ -11774,6 +11738,10 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\minecolonies-1.20.1-1.1.1029-snapshot.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\minecolonies-1.20.1-1.1.873-alpha.mod_data.json",
         "isSelected": false
       },
@@ -11790,7 +11758,15 @@
         "isSelected": false
       },
       {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\MineColonies_Compatibility-1.20.1-2.89.mod_data.json",
+        "isSelected": false
+      },
+      {
         "path": "local\\crash_assistant\\mod_data_cache_v2\\MineColonies_Tweaks-1.20.1-2.75-all.mod_data.json",
+        "isSelected": false
+      },
+      {
+        "path": "local\\crash_assistant\\mod_data_cache_v2\\MineColonies_Tweaks-1.20.1-2.77-all.mod_data.json",
         "isSelected": false
       },
       {
@@ -12278,11 +12254,11 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\16224_1756951655503.info",
+        "path": "local\\crash_assistant\\65556_1757291267659.info",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\16224_1756951655503_app.jar",
+        "path": "local\\crash_assistant\\65556_1757291267659_app.jar",
         "isSelected": false
       },
       {
@@ -12290,19 +12266,19 @@
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\joined_world_pid16224.tmp",
+        "path": "local\\crash_assistant\\joined_world_pid65556.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\normal_stop_pid16224.tmp",
+        "path": "local\\crash_assistant\\normal_stop_pid65556.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\renderer_pid16224.tmp",
+        "path": "local\\crash_assistant\\renderer_pid65556.tmp",
         "isSelected": false
       },
       {
-        "path": "local\\crash_assistant\\successful_launch_pid16224.tmp",
+        "path": "local\\crash_assistant\\successful_launch_pid65556.tmp",
         "isSelected": false
       },
       {
@@ -13774,66 +13750,6 @@
         "isSelected": false
       },
       {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-27_20-24-10.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-27_22-28-16.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-28_16-44-51.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-28_17-03-34.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-28_20-51-16.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-29_20-59-26.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_18-37-38.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_18-44-31.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_19-15-18.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_19-38-06.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_20-13-49.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_20-43-49.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-30_21-31-24.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-31_20-21-20.log.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-31_20-23-26.log.gz",
-        "isSelected": false
-      },
-      {
         "path": "logs\\crash_assistant\\crash_assistant_app_2025-08-31_20-27-11.log.gz",
         "isSelected": false
       },
@@ -13878,6 +13794,30 @@
         "isSelected": false
       },
       {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-03_22-07-43.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_15-33-53.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_15-34-56.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_16-25-42.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_18-54-47.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\crash_assistant\\crash_assistant_app_2025-09-07_19-13-27.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\kubejs",
         "isSelected": false
       },
@@ -13898,11 +13838,7 @@
         "isSelected": false
       },
       {
-        "path": "logs\\telemetry\\20250831-1.json.gz",
-        "isSelected": false
-      },
-      {
-        "path": "logs\\telemetry\\20250831-2.json.gz",
+        "path": "logs\\telemetry\\20250907-1.json.gz",
         "isSelected": false
       },
       {
@@ -14634,6 +14570,30 @@
         "isSelected": false
       },
       {
+        "path": "logs\\2025-09-03-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-09-07-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-09-07-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-09-07-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-09-07-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\2025-09-07-5.log.gz",
+        "isSelected": false
+      },
+      {
         "path": "logs\\latest.log",
         "isSelected": false
       },
@@ -15242,11 +15202,31 @@
         "isSelected": false
       },
       {
-        "path": "logs\\quarry-debug-2025-09-03-1.log.gz",
+        "path": "logs\\quarry-debug-2025-09-03-2.log.gz",
         "isSelected": false
       },
       {
-        "path": "logs\\quarry-debug-2025-09-03-2.log.gz",
+        "path": "logs\\quarry-debug-2025-09-03-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-03-4.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-07-1.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-07-2.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-07-3.log.gz",
+        "isSelected": false
+      },
+      {
+        "path": "logs\\quarry-debug-2025-09-07-4.log.gz",
         "isSelected": false
       },
       {
@@ -18030,7 +18010,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\alltheleaks-1.0.2+1.20.1-forge.jar",
+        "path": "mods\\alltheleaks-1.0.4+1.20.1-forge.jar",
         "isSelected": true
       },
       {
@@ -18194,7 +18174,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\concatenationcore-1.0.4.1-forge-1.20.1.jar",
+        "path": "mods\\concatenationcore-1.0.5-forge-1.20.1.jar",
         "isSelected": true
       },
       {
@@ -18239,10 +18219,6 @@
       },
       {
         "path": "mods\\cosmeticcorpsecompat-1.19.x-1.20.x-Forge-1.0.0.jar",
-        "isSelected": true
-      },
-      {
-        "path": "mods\\craftingrecipeexporter-1.20.1-Forge-1.0.2.jar",
         "isSelected": true
       },
       {
@@ -18518,7 +18494,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\immersive_aircraft-1.3.3+1.20.1-forge.jar",
+        "path": "mods\\immersive_aircraft-1.4.0+1.20.1-forge.jar",
         "isSelected": true
       },
       {
@@ -18550,7 +18526,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\InventoryProfilesNext-forge-1.20-1.10.14.jar",
+        "path": "mods\\InventoryProfilesNext-forge-1.20-1.10.19.jar",
         "isSelected": true
       },
       {
@@ -18630,7 +18606,7 @@
         "isSelected": true
       },
       {
-        "path": "mods\\lootr-forge-1.20-0.7.35.92.jar",
+        "path": "mods\\lootr-forge-1.20-0.7.35.93.jar",
         "isSelected": true
       },
       {
@@ -18678,15 +18654,15 @@
         "isSelected": true
       },
       {
-        "path": "mods\\minecolonies-1.20.1-1.1.1026-snapshot.jar",
+        "path": "mods\\minecolonies-1.20.1-1.1.1029-snapshot.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\MineColonies_Compatibility-1.20.1-2.85.jar",
+        "path": "mods\\MineColonies_Compatibility-1.20.1-2.89.jar",
         "isSelected": true
       },
       {
-        "path": "mods\\MineColonies_Tweaks-1.20.1-2.75-all.jar",
+        "path": "mods\\MineColonies_Tweaks-1.20.1-2.77-all.jar",
         "isSelected": true
       },
       {
@@ -27959,6 +27935,26 @@
       },
       {
         "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-03_22.11.46.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_16.23.53.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_18.50.02.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_19.04.54.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_20.25.14.zip",
+        "isSelected": false
+      },
+      {
+        "path": "saves\\New World (18)\\minecolonies\\colonies-2025-09-07_20.54.04.zip",
         "isSelected": false
       },
       {
@@ -44427,6 +44423,14 @@
       },
       {
         "path": "screenshots\\2025-08-18_01.15.14.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2025-09-07_20.24.38.png",
+        "isSelected": false
+      },
+      {
+        "path": "screenshots\\2025-09-07_20.36.40.png",
         "isSelected": false
       },
       {

@@ -825,4 +825,10 @@ ServerEvents.recipes(event => {
                         B: 'concatenationcore:gold_handle'
                 }
         ).keepIngredient('tarotcards:the_magician')
+        event.shapeless(
+                Item.of('ars_nouveau:arcane_pedestal'),
+                [
+                        'ars_nouveau:arcane_platform'
+                ]
+        )
 });

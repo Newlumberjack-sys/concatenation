@@ -4,7 +4,9 @@ ServerEvents.recipes(event => {
         "irons_spellbooks:inscription_table",
         "irons_spellbooks:scroll_forge",
         "irons_spellbooks:arcane_anvil",
-        "projecte:interdiction_torch"
+        "projecte:interdiction_torch",
+        "projecte:collector_mk1",
+        "projecte:relay_mk1"
 
     ].forEach(item => event.remove({ output: item }));
 
@@ -219,6 +221,38 @@ ServerEvents.recipes(event => {
         {
             A: 'reliquary:interdiction_torch',
             B: 'projecte:medium_covalence_dust'
+        }
+    )
+
+    // The Devil
+
+    event.shaped(
+        Item.of('projecte:collector_mk1'),
+        [
+            'ABA',
+            'CDC',
+            'AEA'
+        ],
+        {
+            C: 'concatenationcore:glowing_gold_block',
+            A: 'minecraft:glowstone',
+            D: 'projecte:aeternalis_fuel_block',
+            E: 'bloodmagic:sacrificerune2',
+            B: 'concatenationcore:protean_glass'
+        }
+    )
+    event.shaped(
+        Item.of('projecte:relay_mk1'),
+        [
+            'ABA',
+            'CDC',
+            'AAA'
+        ],
+        {
+            D: 'projecte:aeternalis_fuel_block',
+            A: 'minecraft:obsidian',
+            C: 'minecraft:crying_obsidian',
+            B: 'concatenationcore:protean_glass'
         }
     )
 
