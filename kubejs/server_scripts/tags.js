@@ -21,7 +21,8 @@ ServerEvents.tags('item', event => {
 
     add('concatenation:hammers', [
         'concatenationcore:hammer',
-        'concatenationcore:ironclad_hammer'
+        'concatenationcore:ironclad_hammer',
+        'concatenationcore:calralite_hammer'
     ]);
 
     add('concatenation:firing_item', [
@@ -74,7 +75,10 @@ ServerEvents.tags('item', event => {
         'asr:iron_giant_sword',
         'asr:wooden_giant_sword',
         'asr:stone_giant_sword',
-        'asr:ender_giant_sword'
+        'asr:ender_giant_sword',
+        'bloodmagic:soulsword',
+        'reliquary:magicbane',
+        'create_dd:gilded_rose_sword'
     ]);
 
     const cultist = [
@@ -228,10 +232,10 @@ ServerEvents.tags('item', event => {
         'minecraft:trident',
     ]);
 
-    add('forge:dusts', [
-        'concatenationcore:crushed_iron',
-        'concatenationcore:crushed_zinc'
-    ]);
-    event.add('forge:dusts/zinc', 'concatenationcore:crushed_zinc');
-    event.add('forge:dusts/iron', 'concatenationcore:crushed_iron');
+    // add('forge:dusts', [
+    //     'concatenationcore:crushed_iron',
+    //     'concatenationcore:crushed_zinc'
+    // ]);
+    // event.add('forge:dusts/zinc', 'concatenationcore:crushed_zinc');
+    // event.add('forge:dusts/iron', 'concatenationcore:crushed_iron');
 });

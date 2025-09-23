@@ -82,6 +82,22 @@ ServerEvents.recipes(event => {
                 }
         )
         event.shaped(
+                Item.of('concatenationcore:quarry_brain'),
+                [
+                        'ABA',
+                        'CDC',
+                        'FEF'
+                ],
+                {
+                        E: 'minecraft:repeater',
+                        C: 'thermal:tin_gear',
+                        A: '#concatenation:lower_circuits',
+                        B: 'minecraft:powered_rail',
+                        D: 'minecraft:copper_block',
+                        F: 'concatenationcore:stickyredstone'
+                }
+        )
+        event.shaped(
                 Item.of('concatenationcore:zinc_casing'),
                 [
                         'ABA',
@@ -790,12 +806,11 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('concatenationcore:stickyredstone', 4),
                 [
-                        'AAB',
+                        'AA ',
                         'AC ',
                         'AC '
                 ],
                 {
-                        B: 'concatenation:hammers',
                         A: 'minecraft:redstone',
                         C: '#forge:slimeballs'
                 }
@@ -1213,7 +1228,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:clay_ball',
                         C: 'minecraft:coal_block',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'minecraft:coal'
                 }
         )
@@ -1227,7 +1242,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'hammerlib:gears/wooden',
                         C: '#concatenation:firing_item',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite'
                 }
         )
@@ -1241,7 +1256,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:tin_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1256,7 +1271,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:iron_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1271,7 +1286,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:gold_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1286,7 +1301,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:copper_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1301,7 +1316,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:lead_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1316,7 +1331,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:silver_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1331,7 +1346,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:nickel_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1346,7 +1361,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:steel_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1361,7 +1376,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: '#forge:ingots/rose_gold',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1376,7 +1391,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:bronze_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1391,7 +1406,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:electrum_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1406,7 +1421,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:invar_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1421,7 +1436,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:constantan_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1436,7 +1451,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:signalum_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1451,7 +1466,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:lumium_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1466,7 +1481,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'thermal:enderium_ingot',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1481,7 +1496,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:lapis_lazuli',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1496,7 +1511,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:diamond',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1511,7 +1526,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:emerald',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )
@@ -1526,7 +1541,7 @@ ServerEvents.recipes(event => {
                 {
                         D: 'minecraft:iron_nugget',
                         C: 'minecraft:quartz',
-                        A: 'concatenationcore:ironclad_hammer',
+                        A: '#concatenation:hammers',
                         B: 'createmetallurgy:graphite_gear_mold'
                 }
         )

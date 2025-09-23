@@ -13,7 +13,8 @@ ServerEvents.recipes(event => {
                 'theurgy:distiller',
                 'theurgy:incubator',
                 'reliquary:witherless_rose',
-                'enderstorage:ender_pouch'
+                'enderstorage:ender_pouch',
+                'bloodmagic:sacrificialdagger'
         ]
 
         remove.forEach(item => {
@@ -24,6 +25,11 @@ ServerEvents.recipes(event => {
                 { mod: 'dimdoors' },
                 'minecraft:ender_pearl',
                 'concatenationcore:woven_pearl'
+        )
+        event.replaceInput(
+                { mod: 'botanypots' },
+                'minecraft:flower_pot',
+                'hexerei:herb_jar'
         )
 
         event.shaped(
@@ -441,6 +447,26 @@ ServerEvents.recipes(event => {
                         C: 'hexerei:moon_dust',
                         B: 'concatenationcore:descran',
                         A: 'concatenationcore:experience_orb'
+                }
+        )
+        event.shapeless(
+                Item.of('tconstruct:blood_slime_leaves', 4),
+                [
+                        'hexerei:blood_bottle',
+                        'minecraft:nether_wart_block'
+                ]
+        )
+        event.shaped(
+                Item.of('bloodmagic:sacrificialdagger'),
+                [
+                        ' AA',
+                        ' BA',
+                        'C  '
+                ],
+                {
+                        B: 'concatenationcore:descran',
+                        C: 'minecraft:diamond',
+                        A: 'concatenationcore:pyrite'
                 }
         )
 });

@@ -30,7 +30,8 @@ ServerEvents.recipes(event => {
                 'reliquary:interdiction_torch',
                 'reliquary:salamander_eye',
                 'reliquary:magicbane',
-                'concatenationcore:gold_stick'
+                'concatenationcore:gold_stick',
+                'ars_nouveau:thread_undying'
         ]
 
         remove.forEach(item => {
@@ -232,7 +233,7 @@ ServerEvents.recipes(event => {
         //         }
         // )
         event.shaped(
-                Item.of('concatenationcore:experienced_paper'),
+                Item.of('concatenationcore:experienced_paper', 4),
                 [
                         ' A ',
                         'ABA',
@@ -466,7 +467,7 @@ ServerEvents.recipes(event => {
                 ['ars_elemental:fire_focus', 'concatenationcore:experienced_paper', 'ars_elemental:water_focus', 'concatenationcore:experienced_paper', 'ars_elemental:air_focus', 'concatenationcore:experienced_paper', 'ars_elemental:earth_focus', 'concatenationcore:experienced_paper'],
                 'ars_nouveau:apprentice_spell_book',
                 'ars_nouveau:archmage_spell_book',
-                100000,
+                10000,
                 true
         )
         event.recipes.ars_nouveau.enchanting_apparatus(
@@ -480,6 +481,13 @@ ServerEvents.recipes(event => {
                 ['theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'theurgy:sal_ammoniac_crystal', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_earth_focus', 'theurgy:alchemical_salt_mineral', 'ars_elemental:lesser_air_focus'],
                 'ars_nouveau:fire_essence',
                 'projecte:high_covalence_dust',
+                5000,
+                true
+        )
+        event.recipes.ars_nouveau.enchanting_apparatus(
+                ['minecraft:totem_of_undying', 'ars_nouveau:abjuration_essence', 'ars_nouveau:abjuration_essence', 'minecraft:phantom_membrane', 'minecraft:phantom_membrane', 'reliquary:phoenix_down'],
+                'ars_nouveau:blank_thread',
+                'ars_nouveau:thread_undying',
                 5000,
                 true
         )

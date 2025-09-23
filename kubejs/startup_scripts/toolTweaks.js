@@ -17,6 +17,12 @@ ItemEvents.modification(event => {
 		["tfmg:steel_axe", 9],
 		["tfmg:steel_sword", 7],
 
+		1200,
+		["mekanismtools:steel_pickaxe", 4],
+		["mekanismtools:steel_shovel", 4.5],
+		["mekanismtools:steel_axe", 9],
+		["mekanismtools:steel_sword", 8],
+
 		// psi psimetal
 		1200,
 		["psi:psimetal_pickaxe", 4],
@@ -111,6 +117,20 @@ ItemEvents.modification(event => {
 		// ["hexerei:mushroom_witch_helmet", 3],
 		// 400, ["hexerei:witch_chestplate", 3],
 		// 325, ["hexerei:witch_boots", 3],
+
+		// Juggernaut
+		10000,
+		["marbledsarsenal:black_juggernaut_armor_helmet", 10],
+		["marbledsarsenal:olive_juggernaut_armor_helmet", 10],
+		15600,
+		["marbledsarsenal:black_juggernaut_armor_chestplate", 14],
+		["marbledsarsenal:olive_juggernaut_armor_chestplate", 14],
+		13250,
+		["marbledsarsenal:black_juggernaut_armor_leggings", 12],
+		["marbledsarsenal:olive_juggernaut_armor_leggings", 12],
+		11000,
+		["marbledsarsenal:black_juggernaut_armor_boots", 10],
+		["marbledsarsenal:olive_juggernaut_armor_boots", 10],
 
 	].forEach(en => {
 		if (typeof en === "number") return d = en;
