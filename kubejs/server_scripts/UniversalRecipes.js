@@ -523,14 +523,12 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('tarotcards:the_emperor'),
                 [
-                        'ABA',
-                        'BCB',
-                        'ABA'
+                        'AAA',
+                        'AAA',
+                        'AAA'
                 ],
                 {
-                        C: 'minecolonies:ancienttome',
-                        A: 'concatenationcore:gold_paper',
-                        B: 'minecolonies:sifter_mesh_diamond'
+                        A: 'concatenationcore:gold_paper'
                 }
         )
         event.shapeless(
