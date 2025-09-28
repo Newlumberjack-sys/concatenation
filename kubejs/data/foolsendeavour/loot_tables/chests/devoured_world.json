@@ -1561,10 +1561,6 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "foolsendeavour:chests/exalted_devoured_world"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "irons_spellbooks:patchouli_book"
 				},
 				{
