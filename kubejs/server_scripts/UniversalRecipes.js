@@ -76,18 +76,6 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shaped(
-                Item.of('immersive_weathering:steel_wool'),
-                [
-                        'AAA',
-                        'ABB',
-                        '   '
-                ],
-                {
-                        A: 'thermal:steel_nugget',
-                        B: 'minecraft:string'
-                }
-        )
-        event.shaped(
                 Item.of('hpm:swashbuckleritem'),
                 [
                         ' AB',
@@ -424,33 +412,9 @@ ServerEvents.recipes(event => {
                 ]
         )
         event.shapeless(
-                Item.of('farmersdelight:rice'),
-                [
-                        'minecolonies:rice'
-                ]
-        )
-        event.shapeless(
                 Item.of('farmersdelight:tomato'),
                 [
                         'thermal:tomato'
-                ]
-        )
-        event.shapeless(
-                Item.of('farmersdelight:tomato'),
-                [
-                        'minecolonies:tomato'
-                ]
-        )
-        event.shapeless(
-                Item.of('farmersdelight:cabbage'),
-                [
-                        'minecolonies:cabbage'
-                ]
-        )
-        event.shapeless(
-                Item.of('thermal:corn'),
-                [
-                        'minecolonies:corn'
                 ]
         )
         event.shaped(
@@ -578,14 +542,12 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('tarotcards:the_emperor'),
                 [
-                        'ABA',
-                        'BCB',
-                        'ABA'
+                        'AAA',
+                        'AAA',
+                        'AAA'
                 ],
                 {
-                        C: 'minecolonies:ancienttome',
-                        A: 'concatenationcore:gold_paper',
-                        B: 'minecolonies:sifter_mesh_diamond'
+                        A: 'concatenationcore:gold_paper'
                 }
         )
         event.shapeless(
