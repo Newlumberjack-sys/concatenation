@@ -6662,11 +6662,6 @@
 			id: "5B1114E8AD48A9D4"
 			rewards: [
 				{
-					id: "5EE1045CF5A195EC"
-					item: "minecolonies:supplychestdeployer"
-					type: "item"
-				}
-				{
 					id: "4C0B630D366DB73D"
 					item: {
 						Count: 1
@@ -23042,7 +23037,7 @@
 		{
 			dependencies: ["524067700E07EB06"]
 			description: [
-				"The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
+				"Quest Not Applicable in Lite Version. The seasons change, and so does the availability of crops. Some crops can only grow in the summer, or spring, or autumn."
 				""
 				"There exists some varieties of crops that can grow in multiple seasons depending on their species. For instance, regular onions can only be grown in spring and autumn, while ishikura onions can be grown in winter and autumn."
 			]
@@ -23054,7 +23049,7 @@
 			}]
 			tasks: [{
 				id: "68C353B5335CCCE3"
-				item: "sereneseasons:calendar"
+				item: "minecraft:beacon"
 				type: "item"
 				weak_nbt_match: true
 			}]

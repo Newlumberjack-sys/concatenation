@@ -785,29 +785,10 @@ ServerEvents.recipes(event => {
                         'ars_nouveau:caster_tome'
                 ]
         )
-        event.shapeless(
-                Item.of('concatenationcore:fortune_fragment'),
-                [
-                        'concatenationcore:cutting_tool',
-                        'immersive_weathering:enchanted_golden_moss_clump',
-                        'immersive_weathering:enchanted_golden_moss_clump',
-                        'immersive_weathering:enchanted_golden_moss_clump',
-                        'immersive_weathering:enchanted_golden_moss_clump'
-                ]
-        )
-        event.shapeless(
-                Item.of('concatenationcore:fortune_fragment'),
-                [
-                        'concatenationcore:cutting_tool',
-                        'immersive_weathering:enchanted_golden_moss_clump',
-                        'immersive_weathering:enchanted_golden_moss_clump',
-                        'immersive_weathering:enchanted_golden_moss_clump'
-                ]
-        )
         event.shaped(
                 Item.of('explorerscompass:explorerscompass'),
                 [
-                        'ABA',
+                        'AEA',
                         'CDC',
                         'AEA'
                 ],
@@ -815,14 +796,13 @@ ServerEvents.recipes(event => {
                         D: 'travelerscompass:travelerscompass',
                         E: 'concatenationcore:fortune_fragment',
                         C: 'minecraft:end_crystal',
-                        A: 'minecraft:cobweb',
-                        B: 'immersive_weathering:enchanted_golden_moss_clump'
+                        A: 'minecraft:cobweb'
                 }
         )
         event.shaped(
                 Item.of('naturescompass:naturescompass'),
                 [
-                        'ABA',
+                        'AEA',
                         'CDC',
                         'AEA'
                 ],
@@ -830,8 +810,7 @@ ServerEvents.recipes(event => {
                         D: 'travelerscompass:travelerscompass',
                         C: 'minecraft:amethyst_cluster',
                         E: 'concatenationcore:fortune_fragment',
-                        A: 'minecraft:vine',
-                        B: 'immersive_weathering:enchanted_golden_moss_clump'
+                        A: 'minecraft:vine'
                 }
         )
         event.shaped(
