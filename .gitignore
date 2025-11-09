@@ -27,6 +27,7 @@ backups
 # various config, caches, etc
 modernfix
 /**/README.*
+!/README.md
 about.txt
 *.tmp
 fml.toml
@@ -39,6 +40,9 @@ patchouli_data.json
 /config/**/*client.properties
 /config/inventoryprofilesnext
 /config/chunky/
+/config/packetfixer.properties
+/config/asyncparticles/*.properties
+/shaderpacks/*.zip.txt
 Distant_Horizons_server_data
 welcomescreen_cache.json
 .mixin.out
@@ -49,10 +53,7 @@ user-prefs.json
 essential
 ESM
 
-# why no work?
-/config/oculus.properties
-/config/packetfixer.properties
-/config/asyncparticles/*.properties
-/shaderpacks/*.zip.txt
-/journeymap/config/5.10/journeymap.fullmap.config
-/journeymap/config/5.10/journeymap.minimap.config
+# explicitly included config
+!config/ProjectE/client.toml
+!config/inventoryprofilesnext/inventoryprofiles.json
+!config/oculus.properties
