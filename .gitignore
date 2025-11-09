@@ -36,6 +36,7 @@ config/world_preview
 patchouli_data.json
 /config/**/*client.json
 /config/**/*client.toml
+/config/**/*client.properties
 /config/inventoryprofilesnext
 /config/chunky/
 Distant_Horizons_server_data
