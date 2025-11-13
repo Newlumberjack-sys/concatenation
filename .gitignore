@@ -38,7 +38,7 @@ patchouli_data.json
 /config/**/*client.json
 /config/**/*client.toml
 /config/**/*client.properties
-/config/inventoryprofilesnext
+/config/inventoryprofilesnext/*
 /config/chunky/
 /config/packetfixer.properties
 /config/asyncparticles/*.properties
@@ -57,3 +57,5 @@ ESM
 !config/ProjectE/client.toml
 !config/inventoryprofilesnext/inventoryprofiles.json
 !config/oculus.properties
+!config/playerrevive-client.json
+!config/simplyjetpacks-client.toml
