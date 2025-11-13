@@ -1926,7 +1926,7 @@ ServerEvents.recipes(event => {
     )
     event.recipes.industrialforegoing.laser_drill_ore(
         "the_deep_void:onyx_ore", // output
-        "industrialforegoing:laser_lens15",  // catalyst
+        "concatenationcore:void_lens",  // catalyst
         [ //rarity, see below for more details
             {
                 "blacklist": {},
@@ -1973,7 +1973,7 @@ ServerEvents.recipes(event => {
     )
     event.recipes.industrialforegoing.laser_drill_ore(
         "the_deep_void:lavendite_ore", // output
-        "industrialforegoing:laser_lens6",  // catalyst
+        "concatenationcore:void_lens",  // catalyst
         [ //rarity, see below for more details
             {
                 "blacklist": {
@@ -2023,7 +2023,7 @@ ServerEvents.recipes(event => {
     )
     event.recipes.industrialforegoing.laser_drill_ore(
         "the_deep_void:bismuth_ore", // output
-        "industrialforegoing:laser_lens10",  // catalyst
+        "concatenationcore:void_lens",  // catalyst
         [ //rarity, see below for more details
             {
                 "blacklist": {
@@ -2064,7 +2064,7 @@ ServerEvents.recipes(event => {
     )
     event.recipes.industrialforegoing.laser_drill_ore(
         "the_deep_void:voidrium_ore", // output
-        "industrialforegoing:laser_lens10",  // catalyst
+        "concatenationcore:void_lens",  // catalyst
         [ //rarity, see below for more details
             {
                 "blacklist": {
