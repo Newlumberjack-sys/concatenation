@@ -29,6 +29,11 @@
     "modId": "aiimprovements",
     "version": "0.5.2"
   },
+  "alloy_smelter-forge-1.20.1-1.1.5.jar": {
+    "jarName": "alloy_smelter-forge-1.20.1-1.1.5.jar",
+    "modId": "alloy_smelter",
+    "version": "1.1.5"
+  },
   "alltheleaks-1.1.0+1.20.1-forge.jar": {
     "jarName": "alltheleaks-1.1.0+1.20.1-forge.jar",
     "modId": "alltheleaks",
@@ -54,10 +59,10 @@
     "modId": "appleskin",
     "version": "2.5.1+mc1.20.1"
   },
-  "Applied-Mekanistics-1.4.2.jar": {
-    "jarName": "Applied-Mekanistics-1.4.2.jar",
+  "Applied-Mekanistics-1.4.3.jar": {
+    "jarName": "Applied-Mekanistics-1.4.3.jar",
     "modId": "appmek",
-    "version": "1.4.2"
+    "version": "1.4.3"
   },
   "appliedenergistics2-forge-15.4.10.jar": {
     "jarName": "appliedenergistics2-forge-15.4.10.jar",
@@ -169,10 +174,10 @@
     "modId": "born_in_chaos_v1",
     "version": "1.7.3"
   },
-  "borninconfiguration-3.1.1-all.jar": {
-    "jarName": "borninconfiguration-3.1.1-all.jar",
+  "borninconfiguration-3.1.2-all.jar": {
+    "jarName": "borninconfiguration-3.1.2-all.jar",
     "modId": "borninconfiguration",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   "BotanyPots-Forge-1.20.1-13.0.41.jar": {
     "jarName": "BotanyPots-Forge-1.20.1-13.0.41.jar",
@@ -288,6 +293,11 @@
     "jarName": "common-networking-forge-1.0.5-1.20.1.jar",
     "modId": "commonnetworking",
     "version": "1.0.5-1.20.1"
+  },
+  "common_ore_library_v2.0.1-1.20.1.jar": {
+    "jarName": "common_ore_library_v2.0.1-1.20.1.jar",
+    "modId": "common_ore_library",
+    "version": "2.0.0-1.20.1"
   },
   "CommonCapabilities-1.20.1-2.9.9.jar": {
     "jarName": "CommonCapabilities-1.20.1-2.9.9.jar",
@@ -702,10 +712,10 @@
     "modId": "ftblibrary",
     "version": "2001.2.10"
   },
-  "ftb-quests-forge-2001.4.15.jar": {
-    "jarName": "ftb-quests-forge-2001.4.15.jar",
+  "ftb-quests-forge-2001.4.16.jar": {
+    "jarName": "ftb-quests-forge-2001.4.16.jar",
     "modId": "ftbquests",
-    "version": "2001.4.15"
+    "version": "2001.4.16"
   },
   "ftb-teams-forge-2001.3.1.jar": {
     "jarName": "ftb-teams-forge-2001.3.1.jar",
@@ -1512,6 +1522,16 @@
     "jarName": "thermal_integration-1.20.1-11.0.1.27.jar",
     "modId": "thermal_integration",
     "version": "11.0.1"
+  },
+  "thermal_processing_v2.0.4-1.20.1.jar": {
+    "jarName": "thermal_processing_v2.0.4-1.20.1.jar",
+    "modId": "thermal_processing",
+    "version": "2.0.4-1.20.1"
+  },
+  "thermalconstruct-1.20.1-0.0.3.jar": {
+    "jarName": "thermalconstruct-1.20.1-0.0.3.jar",
+    "modId": "thermalconstruct",
+    "version": "1.20.1-0.0.3"
   },
   "theurgy-1.20.1-1.25.0.jar": {
     "jarName": "theurgy-1.20.1-1.25.0.jar",

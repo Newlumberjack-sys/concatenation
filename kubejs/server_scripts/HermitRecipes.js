@@ -26,7 +26,10 @@ ServerEvents.recipes(event => {
                 'mekanismtools:wood_paxel',
                 'mekanismtools:iron_paxel',
                 'createbigcannons:cast_iron_block',
-                'create:wrench'
+                'create:wrench',
+                'alloy_smelter:forge_controller_tier1',
+                'alloy_smelter:forge_controller_tier2',
+                'alloy_smelter:forge_controller_tier3'
         ]
 
         remove.forEach(item => {
@@ -41,6 +44,11 @@ ServerEvents.recipes(event => {
         event.remove({ output: 'thermal:bronze_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'thermal:tin_gear', type: 'minecraft:crafting_shaped' })
         event.remove({ output: 'create_connected:fluid_vessel', type: 'minecraft:crafting_shaped' })
+
+        event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:smelting' })
+        event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:blasting' })
+        event.remove({ output: 'tconstruct:smeltery_controller', type: 'tconstruct:foundry' })
+        event.remove({ output: 'tconstruct:smeltery_controller', type: 'tconstruct:casting_basin' })
 
         event.remove({ input: 'minecraft:raw_iron', type: 'tconstruct:foundry' })
         //event.remove({ input: '#minecraft:iron_ores', type: 'tconstruct:foundry' })
@@ -623,6 +631,45 @@ ServerEvents.recipes(event => {
                         C: 'tarotcards:the_tower'
                 }
         ).keepIngredient('tarotcards:the_tower')
+        event.shaped(
+                Item.of('alloy_smelter:forge_controller_tier3'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:gold_ingot',
+                        B: 'create:cut_scorchia_bricks',
+                        C: 'minecraft:blast_furnace'
+                }
+        )
+        event.shaped(
+                Item.of('alloy_smelter:forge_controller_tier1'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        A: 'minecraft:copper_ingot',
+                        B: 'minecraft:stone_bricks',
+                        C: 'minecraft:blast_furnace'
+                }
+        )
+        event.shaped(
+                Item.of('alloy_smelter:forge_controller_tier2'),
+                [
+                        'ABA',
+                        'BCB',
+                        'ABA'
+                ],
+                {
+                        B: 'minecraft:bricks',
+                        A: 'minecraft:copper_ingot',
+                        C: 'minecraft:blast_furnace'
+                }
+        )
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',

@@ -189,6 +189,7 @@
 				"{@pagebreak}"
 				"To switch to this pathway, only &6the Sun&r and &bHigh Priestess&r pathways are adjacent. Mages and technicians can craft &dthe Hermit&r card using silver paper and their respective ingredients. "
 			]
+			hide_dependent_lines: true
 			id: "06A4BEEE42830A85"
 			rewards: [{
 				id: "037E71B3775DC2AF"
@@ -1200,7 +1201,10 @@
 			y: 2.25d
 		}
 		{
-			dependencies: ["31750A18D07A8904"]
+			dependencies: [
+				"31750A18D07A8904"
+				"5153F78E7C90421F"
+			]
 			description: ["Seared Bricks, resistant to heat and molten liquids, forms the basis of the smeltery used for casting, alloying and processing ores."]
 			id: "5F7CEE33D11A352F"
 			rewards: [{
@@ -1221,8 +1225,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.5d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5F7CEE33D11A352F"]
@@ -1250,8 +1254,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.0d
+			x: -4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5B6717870A814E8C"]
@@ -1329,8 +1333,8 @@
 				}
 			]
 			title: "The Mighty Smeltery"
-			x: -4.4d
-			y: 10.450000000000001d
+			x: -4.95d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -1360,7 +1364,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -2385,7 +2389,7 @@
 			}]
 			title: "Core of the System"
 			x: -11.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -2430,8 +2434,8 @@
 				}
 			]
 			title: "ME Storage System"
-			x: -10.5d
-			y: -6.5d
+			x: -11.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2455,8 +2459,8 @@
 				}
 				type: "item"
 			}]
-			x: -12.5d
-			y: -6.5d
+			x: -13.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["05C3E83BCCEF20A2"]
@@ -2504,8 +2508,8 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
-			y: -8.5d
+			x: -13.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["58500620F2876A16"]
@@ -8790,7 +8794,7 @@
 				}
 			]
 			title: "Early Tinkering"
-			x: -4.0d
+			x: -5.0d
 			y: 6.5d
 		}
 		{
@@ -8836,7 +8840,7 @@
 				}
 			]
 			title: "Tinkering"
-			x: -4.0d
+			x: -5.0d
 			y: 8.0d
 		}
 		{
@@ -8893,7 +8897,7 @@
 				}
 			]
 			title: "Efficient Tinkering Storage"
-			x: -6.0d
+			x: -6.5d
 			y: 7.0d
 		}
 		{
@@ -8918,7 +8922,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -9196,7 +9200,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36318C8D65509470"]
@@ -9500,7 +9504,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 12.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["51F0251F529BE03C"]
@@ -19492,7 +19496,7 @@
 			]
 			title: "Specialized Tools"
 			x: -2.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19570,7 +19574,7 @@
 			}]
 			title: "Vein Hammer"
 			x: -1.0d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0964BD6C4413A9C9"]
@@ -19789,7 +19793,7 @@
 			}]
 			title: "Melee Weapons"
 			x: -2.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["550D01E852BFE592"]
@@ -21821,8 +21825,8 @@
 				}
 			]
 			title: "Casting"
-			x: -1.0d
-			y: 9.0d
+			x: -2.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["640ED9A58F8DD165"]
@@ -28390,6 +28394,231 @@
 			}]
 			x: 3.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"Slower and less efficient than the brick alloy smelter, it is still cheaper to make. This makes it a good choice early on when clay is hard to come by to make bricks."
+				""
+				"The main downside of this alloy smelter is that it cannot handle raw materials requiring higher heat throughput, which the other smelters can. The stone alloy smelter still smelts ore way faster than a regular furnace."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 stone brick base underneath and a 2 block-high hollow chimney around the controller."
+			]
+			icon: "alloy_smelter:forge_controller_tier1"
+			id: "6E52172809E1ADA4"
+			rewards: [{
+				count: 32
+				id: "027D3C29CF0CF59D"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3CF32B1A5192850A"
+					item: "alloy_smelter:forge_controller_tier1"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5F12350514A2BEDE"
+					item: { Count: 16, id: "minecraft:stone_bricks" }
+					type: "item"
+				}
+			]
+			title: "Stone Alloy Smelter"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06A4BEEE42830A85"]
+			description: [
+				"An efficient smelting furnace, able to handle double the amount of ore and for a much faster output. "
+				""
+				"The alloy smelter is quite fast compared to a regular furnace and is even fuel-efficient when smelting in batches of two."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 brick base underneath and a 2 block-high hollow chimney around the controller."
+			]
+			icon: "alloy_smelter:forge_controller_tier2"
+			id: "5153F78E7C90421F"
+			rewards: [{
+				count: 16
+				id: "6C0F1DC837A484DF"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Hasteful Ore Processing"
+			tasks: [
+				{
+					id: "16889CAF8762FA77"
+					item: "alloy_smelter:forge_controller_tier2"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "27380B5CCEC89237"
+					item: { Count: 16, id: "minecraft:bricks" }
+					type: "item"
+				}
+			]
+			title: "Brick Alloy Smelter"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5153F78E7C90421F"]
+			description: [
+				"The fastest of the alloy smelters, the scorchia alloy smelter is made from a material originating from the netherworld, allowing for the highest heat throughout."
+				""
+				"It is a very noticeable speed upgrade over its predecessor and can &ldouble the yield of raw ore!&r As a result, it uses more fuel, sadly."
+				"{@pagebreak}"
+				"The alloy smelter requires a controller with a 3x3 scorchia brick base underneath and a 2 block-high hollow chimney around the controller."
+			]
+			icon: "alloy_smelter:forge_controller_tier3"
+			id: "0C08591DA9C6D314"
+			rewards: [{
+				count: 4
+				id: "2267F61B4AFD158F"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "Double Ore Processing"
+			tasks: [
+				{
+					id: "233CFA78B0318F5A"
+					item: "alloy_smelter:forge_controller_tier3"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "79D46DD45493D39B"
+					item: "create:cut_scorchia_bricks"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Scorchia Alloy Smelter"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["050A151DEB4BAF79"]
+			id: "395E588AC17BB8BA"
+			rewards: [{
+				count: 4
+				id: "698A02B051A681D9"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "627A9A47AAC84C80"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_cutting_knife"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Certus Quartz Tools"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["395E588AC17BB8BA"]
+			id: "1308F220F8F86914"
+			rewards: [{
+				count: 6
+				id: "35F9A82563741A9D"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B99C36C79D23A2F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluix_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Fluix Tools"
+			x: -11.5d
+			y: -8.5d
 		}
 	]
 	title: "The Journey"

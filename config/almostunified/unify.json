@@ -10,7 +10,8 @@
     "mekanism",
     "createdeco",
     "concatenationcore",
-    "perdition"
+    "perdition",
+    "common_ore_library"
   ],
   "stoneStrata": [
     "stone",
