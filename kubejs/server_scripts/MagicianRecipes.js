@@ -1138,7 +1138,7 @@ ServerEvents.recipes(event => {
                 {
                         E: 'elementalcraft:burnt_glass',
                         C: 'minecraft:redstone',
-                        A: '#elementalcraft:crystals',
+                        A: '#elementalcraft:crystals/elemental',
                         D: 'minecraft:book',
                         B: 'ars_nouveau:air_essence'
                 }
@@ -1155,7 +1155,7 @@ ServerEvents.recipes(event => {
                 [
                         'elementalcraft:scroll_paper',
                         'elementalcraft:scroll_paper',
-                        '#elementalcraft:crystals/elemental',
+                        '#elementalcraft:crystals/elemental/elemental',
                         'elementalcraft:scroll_paper',
                         'minecraft:leather'
                 ]
@@ -1195,7 +1195,7 @@ ServerEvents.recipes(event => {
                         B: 'elementalcraft:whiterock',
                         D: 'minecraft:hopper',
                         A: 'elementalcraft:drenched_iron_nugget',
-                        C: '#elementalcraft:crystals/elemental'
+                        C: '#elementalcraft:crystals/elemental/elemental'
                 }
         )
         event.shaped(
@@ -1210,7 +1210,7 @@ ServerEvents.recipes(event => {
                         D: 'itemfilters:custom',
                         E: 'minecraft:hopper',
                         A: 'elementalcraft:drenched_iron_nugget',
-                        C: '#elementalcraft:crystals/elemental'
+                        C: '#elementalcraft:crystals/elemental/elemental'
                 }
         )
         event.shaped(

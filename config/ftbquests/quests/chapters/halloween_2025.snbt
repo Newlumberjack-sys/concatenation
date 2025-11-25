@@ -16,6 +16,8 @@
 				""
 				"I should carve out a pumpkin to decorate my home, it's the basis of the holiday, after all."
 			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: "minecraft:carved_pumpkin"
 			id: "283ECA512AD79F99"
 			rewards: [{

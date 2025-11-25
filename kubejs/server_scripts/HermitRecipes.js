@@ -82,7 +82,7 @@ ServerEvents.recipes(event => {
                 },
                 smeltingTime: 200,
                 fuelPerTick: 2,
-                requiredTier: 2
+                requiredTier: 3
         });
 
         event.replaceInput(

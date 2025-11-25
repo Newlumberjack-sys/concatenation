@@ -583,4 +583,9 @@ ServerEvents.tags('item', event => {
     add('forge:gems/sulfur', [
         'the_deep_void:sulfur'
     ])
+
+    add('concatenation:isolated_ingot', [
+        'concatenationcore:galvanized_iron',
+        'concatenationcore:ferrotin_bronze_ingot'
+    ])
 });
