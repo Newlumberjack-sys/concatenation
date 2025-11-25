@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
                 {
                         E: 'littlelogistics:tug',
                         C: 'littlelogistics:vessel_charger',
-                        D: 'thermal:steel_block',
+                        D: 'createmetallurgy:steel_block',
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
                 {
                         E: 'littlelogistics:steam_locomotive',
                         C: 'littlelogistics:vessel_charger',
-                        D: 'thermal:steel_block',
+                        D: 'createmetallurgy:steel_block',
                         A: 'tarotcards:the_chariot',
                         B: 'minecraft:piston'
                 }

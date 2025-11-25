@@ -65,7 +65,7 @@ ItemEvents.modification(event => {
 		["ae2:certus_quartz_pickaxe", 5],
 		["ae2:certus_quartz_shovel", 5.5],
 		["ae2:certus_quartz_axe", 9],
-		["ae2:certus_quartz_cutting_knife", 9],
+		// ["ae2:certus_quartz_cutting_knife", 9],
 		["ae2:certus_quartz_sword", 8],
 		["ae2:certus_quartz_hoe", 2],
 

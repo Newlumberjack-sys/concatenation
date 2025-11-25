@@ -280,7 +280,7 @@ element {
 
 element {
   button_element_executable_block_identifier = 78865663-ae8e-4712-baca-8139b49d24f2-1761092838563
-  [executable_action_instance:d7fd34e0-d0fa-4661-9233-b842d2445f4e-1761092936169][action_type:openlink] = https://ko-fi.com/reversteam
+  [executable_action_instance:d7fd34e0-d0fa-4661-9233-b842d2445f4e-1761092936169][action_type:openlink] = https://buymeacoffee.com/reversteam
   [executable_block:78865663-ae8e-4712-baca-8139b49d24f2-1761092838563][type:generic] = [executables:d7fd34e0-d0fa-4661-9233-b842d2445f4e-1761092936169;]
   backgroundnormal = [source:local]/config/fancymenu/assets/kofi-button.png
   backgroundhovered = [source:local]/config/fancymenu/assets/kofi-hover.png

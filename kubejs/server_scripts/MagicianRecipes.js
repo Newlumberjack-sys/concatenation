@@ -1113,6 +1113,21 @@ ServerEvents.recipes(event => {
                         D: 'thermal:silver_ingot'
                 }
         )
+        // event.shaped(
+        //         Item.of('spelled:leveling_altar'),
+        //         [
+        //                 'ABA',
+        //                 'CDC',
+        //                 'AEA'
+        //         ],
+        //         {
+        //                 C: 'elementalcraft:swift_alloy_nugget',
+        //                 E: 'minecraft:redstone',
+        //                 B: '#elementalcraft:gems/crude_air',
+        //                 A: 'elementalcraft:springaline_shard',
+        //                 D: 'minecraft:book'
+        //         }
+        // )
         event.shaped(
                 Item.of('spelled:leveling_altar'),
                 [
@@ -1121,11 +1136,11 @@ ServerEvents.recipes(event => {
                         'AEA'
                 ],
                 {
-                        C: 'elementalcraft:swift_alloy_nugget',
-                        E: 'minecraft:redstone',
-                        B: '#elementalcraft:gems/crude_air',
-                        A: 'elementalcraft:springaline_shard',
-                        D: 'minecraft:book'
+                        E: 'elementalcraft:burnt_glass',
+                        C: 'minecraft:redstone',
+                        A: '#elementalcraft:crystals',
+                        D: 'minecraft:book',
+                        B: 'ars_nouveau:air_essence'
                 }
         )
         event.shapeless(

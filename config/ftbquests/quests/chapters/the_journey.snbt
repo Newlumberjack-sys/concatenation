@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2CEDBC536409D424"
+	autofocus_id: "768D38C149E01806"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_journey"
@@ -1225,7 +1225,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
@@ -1258,7 +1258,10 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["5B6717870A814E8C"]
+			dependencies: [
+				"5B6717870A814E8C"
+				"2515356468657815"
+			]
 			description: [
 				"The Smeltery is used for ore processing, alloying and further advancement in tinkering. It's a multiblock apparatus requiring a square or rectangular seared bricks structure, also using seared tanks to hold lava required for melting ores."
 				"{@pagebreak}"
@@ -8601,19 +8604,26 @@
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-			tasks: [{
-				id: "0429758C3E5069CC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "0429758C3E5069CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "create:goggles"
 					}
-					id: "create:goggles"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6458E2F0E4309F64"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 11.0d
 		}
@@ -27864,12 +27874,12 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["770B8C25D934EC9B"]
+			dependencies: ["314ACC07FE5193DC"]
 			dependency_requirement: "one_completed"
 			description: [
-				"This leveling altar can be used to augment your proficiency in the &oknowledge of words&r."
+				"This leveling altar can be used to augment your proficiency in the &oknowledge of words&r, allowing you to use spells."
 				""
-				"This requires a substantial amount of experience and air essences, as words travel through the air."
+				"This requires an amount of experience and air essences, as words travel through the air. Air essences can be produced by infusing an air crystal with more air."
 			]
 			id: "08F5E41C824834DC"
 			rewards: [{
@@ -27883,8 +27893,8 @@
 				item: "spelled:leveling_altar"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 12.0d
+			x: 3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["12F6BD166085B3B5"]
@@ -28403,6 +28413,8 @@
 				"The main downside of this alloy smelter is that it cannot handle raw materials requiring higher heat throughput, which the other smelters can. The stone alloy smelter still smelts ore way faster than a regular furnace."
 				"{@pagebreak}"
 				"The alloy smelter requires a controller with a 3x3 stone brick base underneath and a 2 block-high hollow chimney around the controller."
+				""
+				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
 			]
 			icon: "alloy_smelter:forge_controller_tier1"
 			id: "6E52172809E1ADA4"
@@ -28437,6 +28449,8 @@
 				"The alloy smelter is quite fast compared to a regular furnace and is even fuel-efficient when smelting in batches of two."
 				"{@pagebreak}"
 				"The alloy smelter requires a controller with a 3x3 brick base underneath and a 2 block-high hollow chimney around the controller."
+				""
+				"{image:concatenationcore:textures/alloy_smelter.png width:100 height:100 align:center}"
 			]
 			icon: "alloy_smelter:forge_controller_tier2"
 			id: "5153F78E7C90421F"
@@ -28498,7 +28512,7 @@
 			]
 			title: "Scorchia Alloy Smelter"
 			x: -3.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["050A151DEB4BAF79"]
@@ -28554,6 +28568,7 @@
 						]
 					}
 				}
+				title: "Any Certus Quartz Tools"
 				type: "item"
 			}]
 			title: "Certus Quartz Tools"
@@ -28614,11 +28629,37 @@
 						]
 					}
 				}
+				title: "Any Fluix Tools"
 				type: "item"
 			}]
 			title: "Fluix Tools"
 			x: -11.5d
 			y: -8.5d
+		}
+		{
+			dependencies: ["5153F78E7C90421F"]
+			id: "2515356468657815"
+			tasks: [{
+				id: "534FCEE723BF3A23"
+				item: "concatenationcore:ferrotin_bronze_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["53F8923B85A8A9CC"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "768D38C149E01806"
+			invisible: true
+			tasks: [{
+				id: "6EFE56EE1C42E6DD"
+				title: "Center Quest"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 	title: "The Journey"

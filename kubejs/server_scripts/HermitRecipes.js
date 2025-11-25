@@ -29,7 +29,10 @@ ServerEvents.recipes(event => {
                 'create:wrench',
                 'alloy_smelter:forge_controller_tier1',
                 'alloy_smelter:forge_controller_tier2',
-                'alloy_smelter:forge_controller_tier3'
+                'alloy_smelter:forge_controller_tier3',
+                'create:goggles',
+                'tconstruct:smeltery_controller',
+                'tconstruct:tinker_station'
         ]
 
         remove.forEach(item => {
@@ -47,12 +50,40 @@ ServerEvents.recipes(event => {
 
         event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:smelting' })
         event.remove({ output: 'tconstruct:seared_brick', type: 'minecraft:blasting' })
-        event.remove({ output: 'tconstruct:smeltery_controller', type: 'tconstruct:foundry' })
-        event.remove({ output: 'tconstruct:smeltery_controller', type: 'tconstruct:casting_basin' })
 
         event.remove({ input: 'minecraft:raw_iron', type: 'tconstruct:foundry' })
         //event.remove({ input: '#minecraft:iron_ores', type: 'tconstruct:foundry' })
         event.remove({ input: 'minecraft:raw_iron_block', type: 'tconstruct:foundry' })
+
+        event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                ],
+                result: {
+                        item: "tconstruct:smeltery_controller",
+                        count: 1
+                },
+                smeltingTime: 250,
+                fuelPerTick: 2,
+                requiredTier: 2
+        });
+
+        event.custom({
+                type: "alloy_smelter:smelting",
+                ingredients: [
+                        { item: "tconstruct:seared_bricks", count: 1 },
+                        { item: "concatenationcore:ferrotin_bronze_ingot", count: 1 }
+                ],
+                result: {
+                        item: "tconstruct:smeltery_controller",
+                        count: 1
+                },
+                smeltingTime: 200,
+                fuelPerTick: 2,
+                requiredTier: 2
+        });
 
         event.replaceInput(
                 { mod: 'createbigcannons' },
@@ -608,14 +639,15 @@ ServerEvents.recipes(event => {
         event.shaped(
                 Item.of('create:wrench'),
                 [
-                        'AA ',
-                        'AB ',
-                        ' C '
+                        'ABA',
+                        'AC ',
+                        ' D '
                 ],
                 {
-                        A: 'create:brass_sheet',
-                        C: 'minecraft:stick',
-                        B: 'create:cogwheel'
+                        A: 'create:brass_ingot',
+                        D: 'minecraft:stick',
+                        C: 'create:cogwheel',
+                        B: 'concatenationcore:ferrotin_bronze_ingot'
                 }
         )
         event.shaped(
@@ -632,6 +664,20 @@ ServerEvents.recipes(event => {
                 }
         ).keepIngredient('tarotcards:the_tower')
         event.shaped(
+                Item.of('create:goggles'),
+                [
+                        'ABA',
+                        'CDC',
+                        '   '
+                ],
+                {
+                        C: 'create:brass_ingot',
+                        A: 'minecraft:glass',
+                        B: 'minecraft:string',
+                        D: 'concatenationcore:ferrotin_bronze_ingot'
+                }
+        )
+        event.shaped(
                 Item.of('alloy_smelter:forge_controller_tier3'),
                 [
                         'ABA',
@@ -641,18 +687,17 @@ ServerEvents.recipes(event => {
                 {
                         A: 'minecraft:gold_ingot',
                         B: 'create:cut_scorchia_bricks',
-                        C: 'minecraft:blast_furnace'
+                        C: 'alloy_smelter:forge_controller_tier2'
                 }
         )
         event.shaped(
                 Item.of('alloy_smelter:forge_controller_tier1'),
                 [
-                        'ABA',
+                        'BBB',
                         'BCB',
-                        'ABA'
+                        'BBB'
                 ],
                 {
-                        A: 'minecraft:copper_ingot',
                         B: 'minecraft:stone_bricks',
                         C: 'minecraft:blast_furnace'
                 }
@@ -667,9 +712,36 @@ ServerEvents.recipes(event => {
                 {
                         B: 'minecraft:bricks',
                         A: 'minecraft:copper_ingot',
-                        C: 'minecraft:blast_furnace'
+                        C: 'concatenationcore:forge_grate'
                 }
         )
+        event.shaped(
+                Item.of('concatenationcore:forge_grate'),
+                [
+                        'ABA',
+                        'CDC',
+                        'ACA'
+                ],
+                {
+                        C: 'createdeco:copper_bars',
+                        D: 'minecraft:copper_block',
+                        B: 'tarotcards:the_hermit',
+                        A: 'minecraft:iron_bars'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
+        event.shaped(
+                Item.of('tconstruct:tinker_station'),
+                [
+                        'ABA',
+                        'C C',
+                        'C C'
+                ],
+                {
+                        A: 'tconstruct:pattern',
+                        C: '#minecraft:logs',
+                        B: 'tarotcards:the_hermit'
+                }
+        ).keepIngredient('tarotcards:the_hermit')
 
         event.recipes.minecraft.smelting(
                 'create:zinc_ingot',
