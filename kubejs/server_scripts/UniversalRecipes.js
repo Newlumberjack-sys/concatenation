@@ -1193,4 +1193,18 @@ ServerEvents.recipes(event => {
                         'concatenationcore:full_cups'
                 ]
         )
+        event.shapeless(
+                Item.of('concatenationcore:radiation_wand'),
+                [
+                        'mekanismgenerators:fission_fuel_assembly',
+                        'concatenationcore:full_pentacles',
+                        'mekanism:ultimate_energy_cube',
+                        'mekanism:ultimate_tier_installer',
+                        'mekanism:ultimate_control_circuit',
+                        'concatenationcore:galvanized_iron',
+                        'concatenationcore:primed_calculation_processor',
+                        'concatenationcore:erhantahir_alloy',
+                        'concatenationcore:galvanized_iron'
+                ]
+        ).keepIngredient('concatenationcore:full_pentacles');
 });
