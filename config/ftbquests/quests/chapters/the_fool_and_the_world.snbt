@@ -1715,6 +1715,194 @@
 			x: 0.75d
 			y: -24.15d
 		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "3CF1BF81A1EB8B0D"
+			rewards: [{
+				id: "1C4114DA7DC64957"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "3BAE5CAF4F2F9147"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:botanist_workbench"
+							}
+							{
+								Count: 1b
+								id: "chipped:glassblower"
+							}
+							{
+								Count: 1b
+								id: "chipped:carpenters_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:loom_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:mason_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:alchemy_bench"
+							}
+							{
+								Count: 1b
+								id: "chipped:tinkering_table"
+							}
+						]
+					}
+				}
+				title: "Any Building Workstation"
+				type: "item"
+			}]
+			title: "Variant Blocks"
+			x: -4.05d
+			y: -3.8499999999999996d
+		}
+		{
+			dependencies: ["524067700E07EB06"]
+			id: "7C7D065A52F9A7D2"
+			rewards: [{
+				id: "13E5FBA180CF7246"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "4503E7EC984DDFDA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_purple"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_brown"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_green"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_red"
+							}
+							{
+								Count: 1b
+								id: "comforts:sleeping_bag_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_white"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_orange"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_magenta"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_blue"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_yellow"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_lime"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_pink"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_light_gray"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_cyan"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_black"
+							}
+							{
+								Count: 1b
+								id: "comforts:hammock_blue"
+							}
+						]
+					}
+				}
+				title: "Any Sleeping Bag or Hammock"
+				type: "item"
+			}]
+			title: "Lazy Man's Dream"
+			x: 3.85d
+			y: -3.8499999999999996d
+		}
 	]
 	title: "Preface"
 }

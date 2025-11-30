@@ -1065,11 +1065,18 @@
 					xp_levels: 5
 				}
 			]
-			tasks: [{
-				id: "5B0530B25E868DE6"
-				item: "oreberriesreplanted:silver_oreberry"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B0530B25E868DE6"
+					item: "oreberriesreplanted:silver_oreberry"
+					type: "item"
+				}
+				{
+					id: "5A835FF31690E39E"
+					item: "common_ore_library:platinum_ingot"
+					type: "item"
+				}
+			]
 			title: "Maybe we can start over?"
 			x: 30.0d
 			y: 0.0d

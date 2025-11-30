@@ -589,4 +589,11 @@ ServerEvents.tags('item', event => {
         'concatenationcore:galvanized_iron',
         'concatenationcore:ferrotin_bronze_ingot'
     ])
+
+    add('forge:salt', [
+        'refurbished_furniture:sea_salt',
+    ])
+    add('forge:dusts/salt', [
+        'refurbished_furniture:sea_salt',
+    ])
 });
